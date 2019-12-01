@@ -116,7 +116,7 @@ const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 const recognition = new SpeechRecognition();
 
 recognition.onstart = function(){
-	console.log("voice is actived, you cn talk to micropohone");
+	console.log("voice is actived, you can talk to microphone");
 };
 recognition.onresult = function(){
 	const current = event.resultIndex;
