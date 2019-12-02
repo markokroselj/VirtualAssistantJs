@@ -309,7 +309,7 @@ function run(userInput){
 		}, 3200);
 
 	}
-	if (userInput == "play a song on spotify") {
+	if (userInput == "play final song") {
 
 		appOutput = "playing MØ - Final Song (Official Video)...";
 		textToSpeech(appOutput);
@@ -348,7 +348,7 @@ recognition.onresult = function(){
 	run(micinput.toLowerCase());
 };
 
-let playerSpriteX = 0;
+
 
 document.addEventListener('keyup', (e) => {
   if (e.code === "KeyF") 
