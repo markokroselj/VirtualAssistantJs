@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+$primaryColor : #23272A;
+body{
+    margin: 0;
+    padding: 0;
+    background: $primaryColor;
+    color: #fff;
+    font-family:  'Roboto', sans-serif;
+}
+header{
+    padding: 15px 0;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+#container{
+    display: none;
+    background: #2C2F33;
+     #textDisplayContainer{
+        height: 70vh;
+        padding: 10px 15px;
+        display: grid;
+        overflow-y: auto;
+        p{
+            background: #7289DA;
+            padding: 5px 17px;
+            text-align: center;
+            border-radius: 15px;
+            margin: 5px;
+        }
+            .right{
+                justify-self: right;
+                align-self: center;
+             
+
+            }
+            .left{
+                justify-self: left;
+                align-self: center;
+                width: 145px;
+
+            }
+     }
+     .inputs{
+         margin: 5px 0;
+         padding: 15px 0;
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         background: #7289DA;
+            input{
+                width: 320px;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                padding: 5px 10px;
+            }
+     }
+}
+
+#talk,#speak{
+    background: none;
+    border: none;
+    outline: none;
+}
+.micActive{
+    color: red;
+    pointer-events: none;
+}
