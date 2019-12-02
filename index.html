@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#23272A">
     <title>app</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://kit.fontawesome.com/9be041433f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>AI bot</h1>
-    <button id="start">Start with the conversation</button><br>
-    <div id="container">
-        <input type="text" class="input">
-        <button  id="speak">speak</button>
-        <button id="talk">talk</button>
-    </div>
-    
+    <header>
+        <h1>AI bot</h1>
+    </header>
+    <main>
+            <button id="start">Start with the conversation</button>
+            <div id="container">
+                <div id="textDisplayContainer">
+                </div>
+                <div class="inputs">
+                        <input type="text" class="input">
+                        <button  id="speak" class="fas fa-paper-plane fa-2x"></button>
+                        <button id="talk" class="fas fa-microphone fa-2x" ></button>
+                </div>
+            </div>
+    </main>
+    <footer>
 
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
