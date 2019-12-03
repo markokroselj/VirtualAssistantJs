@@ -2,7 +2,7 @@
 
 Virtual assistent is javascript application 
 
-ver 0.2 beta 
+ver: 0.2 closed beta 
 ## Changelog:
 1. Updated UI 
 2. Added a ton of new commands:
