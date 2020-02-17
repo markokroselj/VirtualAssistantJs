@@ -2,6 +2,27 @@
 
 Virtual assistent is javascript application 
 
+ver: 0.3 open beta
+## Changelog:
+1. added sound when mic is activated
+2. weather api
+    * what's the weather in [ location ]
+3. teamtrees api
+    * how many trees have been planted
+4. Calculator
+    * what is 7 + 7
+    * what is pi
+    * what is the square root of  [ number ]
+5. Time
+    * what's the time"
+    * what's the day
+    * what day was yesterday
+    * what day it will be tomorrow
+    
+
+
+
+
 ver: 0.2 closed beta 
 ## Changelog:
 1. Updated UI 
